@@ -3,5 +3,6 @@
    tasks:
    -  name: create key pair using provided key_material
       ec2_key:
-        name: my_keypair
+        name: bastion_host
+        region: us-east-1
         key_material: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCuGB7W3WcqrmzSzkm0It+GxbNO5BJChqz/DoqvP8NabYC7BbUeXzLjaLoCAyIwPOWHmYD8l84cfyjauSbHXRky6v9v6MME8dg/4Ubl5Tle7jjwO5CQ9PTWdpR/QqX72LB7A8dWkV/fMNOA62pPZTW1xYEJgniYIgHvQrfS1x2WOxNoT8rXfnwa7cvJc00uUkKU+tRY7o8PYytTeWsJB0zDSpRSTFVmdOk5fP/Ye8L9aedP+CDRA7V86fs8422cCpKS9DYiF2VNuViuq6NL87Gir9uohGXuEgWlOvXNBRWl8Ryl2h3wTgyZltmwIacdjKPJh2o9fnykPZLYBDBlKILH centos@ip-172-31-25-103.eu-west-2.compute.internal'
